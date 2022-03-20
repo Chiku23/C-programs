@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/teams.css">
+    <style>
+        body {
+            background-color: rgb(155, 132, 4);
+        }
+        .Head {
+            margin-top: 20px;
+            width: 330px;
+            display: inline-block;
+            text-align: center;
+            position: fixed;
+        }
+        .image img {
+            width: 250px;
+            border-radius: 180px;
+            box-shadow: 0px 0px 50px navy;
+            transition: all 800ms;
+        }
+        .image img:hover{
+            transform: scale(1.1);
+            transition: all 800ms;
+        }
+        .players {
+            float: right;
+            width: 1000px;
+            margin: auto;
+            padding-top: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .tdetails {
+            color: navy;
+            font-size: larger;
+            font-weight: bolder;
+            text-shadow: 0px 0px 10px white;
+        }
+
+        .pcard {
+            background-color: transparent;
+            border: 5px solid rgb(10, 5, 73);
+            border-radius: 35px;
+            height: 300px;
+            width: 250px;
+            display: inline-block;
+            flex-direction: column;
+            margin: 30px;
+            text-align: center;
+            transition: all 1s;
+        }
+
+        .pcard img {
+            box-shadow: 0 0 50px navy;
+            border-radius: 30px;
+            align-self: center;
+            margin-top: 0px;
+            height: 300px;
+            width: 250px;
+        }
+
+        .pcard .details {
+            display: none;
+            position: relative;
+            bottom: 90px;
+            background-color: navy;
+            color: rgb(231, 185, 34);
+            text-align: center;
+            font-weight: 600;
+        }
+
+        .pcard:hover {
+            cursor: pointer;
+            transition: all 1s;
+            transform: scale(1.1);
+        }
+
+        .pcard:hover .details {
+            display: block;
+            border-bottom-left-radius: 35px;
+            border-bottom-right-radius: 35px;
+        }
+
+    </style>
+    <title>IPL INFO</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="../photos/IPL/TATA_IPL_2022_LOGO.png" alt="TATA IPL 2022 logo">
+        </div>
+        <div class="menu">
+            <a href="../index.html">Home</a>
+            <a href="../about.html">About IPL</a>
+            <a href="#">Add Team</a>
+            <a href="#">Add Player</a>
+        </div>
+        <div class="search">
+            <input type="search" value="Type here">
+            <a href="#"><input type="button" class="btn" value="Search"></a>
+        </div>
+    </header>
+    <div class="Head">
+        <div class="image">
+            <img src="../photos/logos/GT.png" alt="Team Logo">
+        </div>
+        <div class="tdetails">
+
+            <h2>Gujrat Titans</h2>
+            <p>Championships Won : 0</p>
+            <p>Total Players: 17</p>
+            <p>Batsmans:</p>
+            <p>Bowlers:</p>
+            <p>All-Rounders:</p>
+        </div>
+    </div>
+
+    <div class="players">
+        <div class="pcard">
+            <img src="../photos/GT/M_Wade.PNG" alt="">
+            <div class="details">
+                <h3>Matthew Wade</h3>
+                <p>Role: Wicket Keeper</p>
+                <p>Status: Playing</p>
+                <p>Price: 2.40 Cr </p>
+            </div>
+        </div>
+        <div class="pcard">
+            <img src="../photos/GT/S_Gill.PNG" alt="">
+            <div class="details">
+                <h3>Shubman Gill</h3>
+                <p>Role: Batsman</p>
+                <p>Status: Playing</p>
+                <br>
+            </div>
+        </div>
+        <div class="pcard">
+            <img src="../photos/GT/R_Khan.PNG" alt="">
+            <div class="details">
+                <h3>Rashid Khan</h3>
+                <p>Role: Bowler</p>
+                <p>Status: Playing</p>
+                <br>
+            </div>
+        </div>
+        <div class="pcard">
+            <img src="../photos/GT/H_Pandya.PNG" alt="">
+            <div class="details">
+                <h3>Hardik Pandya</h3>
+                <p>Role: All-Rounder</p>
+                <p>Status: Playing</p>
+                <br>
+            </div>
+        </div>
+        <div class="pcard">
+            <img src="../photos/GT/R_Gurbaz.PNG" alt="">
+            <div class="details">
+                <h3>Rahmanullah Gurbaz</h3>
+                <p>Role: Wicket-Keeper</p>
+                <p>Status: Playing</p>
+                <br>
+            </div>
+        </div>
+        <div class="pcard">
+            <img src="../photos/GT/J_Roy.PNG" alt="">
+            <div class="details">
+                <h3>Jason Roy</h3>
+                <p>Role: Batsman</p>
+                <p>Status: Playing</p>
+                <p>Price: 2 Cr</p>
+            </div>
+        </div>
+        <div class="pcard">
+            <img src="../photos/GT/A_Manohar.PNG" alt="">
+            <div class="details">
+                <h3>Abhinav Manohar</h3>
+                <p>Role: Batsman</p>
+                <p>Status: Playing</p>
+                <p>Price: 2.60 Cr</p>
+            </div>
+        </div>
+        <div class="pcard">
+            <img src="../photos/GT/Y_Dayal.PNG" alt="">
+            <div class="details">
+                <h3>Yash Dayal</h3>
+                <p>Role: Bowler</p>
+                <p>Status: Not Playing</p>
+                <br>
+            </div>
+        </div>
+        <div class="pcard">
+            <img src="../photos/GT/D_Drakes.PNG" alt="">
+            <div class="details">
+                <h3>Dominic Drakes</h3>
+                <p>Role: Bowler</p>
+                <p>Status: Playing</p>
+                <p>Price: 1.10 Cr</p>
+            </div>
+        </div>
+        <div class="pcard">
+            <img src="../photos/GT/N_Ahmad.PNG" alt="">
+            <div class="details">
+                <h3>Noor Ahmad</h3>
+                <p>Role: Bowler</p>
+                <p>Status: Not-Playing</p>
+                <p>Price: 30 L</p>
+            </div>
+        </div>
+        <div class="pcard">
+            <img src="../photos/GT/D_Miller.PNG" alt="">
+            <div class="details">
+                <h3>David Miller</h3>
+                <p>Role: Batsman</p>
+                <p>Status: Not-Playing</p>
+                <p>Price: 3 Cr</p>
+            </div>
+        </div>
+        <div class="pcard">
+            <img src="../photos/GT/M_Sami.PNG" alt="">
+            <div class="details">
+                <h3>Mohammed Shami</h3>
+                <p>Role: Bowler</p>
+                <p>Status: Not-Playing</p>
+                <p>Price: 6.25 Cr</p>
+            </div>
+        </div>
+        <div class="pcard">
+            <img src="../photos/GT/V_Shankar.PNG" alt="">
+            <div class="details">
+                <h3>Vijaya Shankar</h3>
+                <p>Role: All-Rounder</p>
+                <p>Status: Playing</p>
+                <p>Price: 1.40 Cr</p>
+            </div>
+        </div>
+        <div class="pcard">
+            <img src="../photos/GT/G_Singh.PNG" alt="">
+            <div class="details">
+                <h3>Gurkeerat Singh</h3>
+                <p>Role: Batsman</p>
+                <p>Status: Playing</p>
+                <p>Price: 50 L</p>
+            </div>
+        </div>
+        <div class="pcard">
+            <img src="../photos/GT/Sai-S.PNG" alt="">
+            <div class="details">
+                <h3>Sai Sudharsan</h3>
+                <p>Role: All-Rounder</p>
+                <p>Status: Playing</p>
+                <p>Price: 20 L</p>
+            </div>
+        </div>
+        <div class="pcard">
+            <img src="../photos/GT/Rahul_T.PNG" alt="">
+            <div class="details">
+                <h3>Rahul Tewatia</h3>
+                <p>Role: All-Rounder</p>
+                <p>Status: Not-Playing</p>
+                <p>Price: 9 Cr</p>
+            </div>
+        </div>
+        <div class="pcard">
+            <img src="../photos/GT/L_Ferguson.PNG" alt="">
+            <div class="details">
+                <h3>Lockie Ferguson</h3>
+                <p>Role: Bowler</p>
+                <p>Status: Not-Playing</p>
+                <p>Price: 10 Cr</p>
+            </div>
+        </div>
+        <div class="pcard">
+            <img src="../photos/GT/A_Joseph.PNG" alt="">
+            <div class="details">
+                <h3>Lockie Ferguson</h3>
+                <p>Role: Bowler</p>
+                <p>Status: Not-Playing</p>
+                <p>Price: 2.40 Cr</p>
+            </div>
+        </div>
+    </div>
+</body>

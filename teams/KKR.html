@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/teams.css">
+    <style>
+        body {
+            background-color: purple;
+        }
+        .Head {
+            margin-top: 10px;
+            width: 330px;
+            display: inline-block;
+            text-align: center;
+            position: fixed;
+        }
+        .image img {
+            width: 250px;
+            border-radius: 180px;
+            box-shadow: 0px 0px 50px gold;
+            transition: all 800ms;
+        }
+        .image img:hover{
+            transform: scale(1.1);
+            transition: all 800ms;
+        }
+        .players {
+            float: right;
+            width: 1000px;
+            margin: auto;
+            padding-top: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .tdetails {
+            color: gold;
+            font-size: larger;
+            font-weight: bolder;
+            text-shadow: 0px 0px 10px black;
+        }
+
+        .pcard {
+            background-color: gold;
+            border: 5px solid black;
+            border-radius: 35px;
+            height: 300px;
+            width: 250px;
+            display: inline-block;
+            flex-direction: column;
+            margin: 30px;
+            text-align: center;
+            transition: all 1s;
+        }
+
+        .pcard img {
+            box-shadow: 0 0 50px black;
+            border-radius: 30px;
+            align-self: center;
+            margin-top: 0px;
+            height: 300px;
+            width: 250px;
+        }
+
+        .pcard .details {
+            display: none;
+            position: relative;
+            bottom: 90px;
+            background-color: purple;
+            color: gold;
+            text-align: center;
+            font-weight: 600;
+        }
+
+        .pcard:hover {
+            cursor: pointer;
+            transition: all 1s;
+            transform: scale(1.1);
+        }
+
+        .pcard:hover .details {
+            display: block;
+            border-bottom-left-radius: 35px;
+            border-bottom-right-radius: 35px;
+        }
+
+    </style>
+    <title>IPL INFO</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="../photos/IPL/TATA_IPL_2022_LOGO.png" alt="TATA IPL 2022 logo">
+        </div>
+        <div class="menu">
+            <a href="../index.html">Home</a>
+            <a href="../about.html">About IPL</a>
+            <a href="#">Add Team</a>
+            <a href="#">Add Player</a>
+        </div>
+        <div class="search">
+            <input type="search" value="Type here">
+            <a href="#"><input type="button" class="btn" value="Search"></a>
+        </div>
+    </header>
+    <div class="Head">
+        <div class="image">
+            <img src="../photos/logos/KKR.png" alt="Team Logo">
+        </div>
+        <div class="tdetails">
+
+            <h1>Kolkata Knight Riders</h1>
+            <p>Championships Won : 2</p>
+            <p>Total Players: 17</p>
+            <p>Batsmans:</p>
+            <p>Bowlers:</p>
+            <p>All-Rounders:</p>
+        </div>
+    </div>
+
+    <div class="players">
+        <div class="pcard">
+            <img src="../photos/KKR/S_Billings.png" alt="">
+            <div class="details">
+                <h3>Sam Billings</h3>
+                <p>Role: Wicket Keeper</p>
+                <p>Status: Playing</p>
+                <p>Price: 2 Cr</p>
+            </div>
+        </div>
+        <div class="pcard">
+            <img src="../photos/KKR/S_Iyer.png" alt="">
+            <div class="details">
+                <h3>Shreyas Iyer</h3>
+                <p>Role: Batsman</p>
+                <p>Status: Playing</p>
+                <p>Price: 12.25 Cr</p>
+            </div>
+        </div>
+        <div class="pcard">
+            <img src="../photos/KKR/V_Chakrabarthy.png" alt="">
+            <div class="details">
+                <h3>Varun Chakravarty</h3>
+                <p>Role: Bowler</p>
+                <p>Status: Playing</p>
+                <p>Price: </p>
+            </div>
+        </div>
+        <div class="pcard">
+            <img src="../photos/KKR/V_Iyer.png" alt="">
+            <div class="details">
+                <h3>Venkatesh Iyer</h3>
+                <p>Role: All-Rounder</p>
+                <p>Status: Playing</p>
+                <p>Price: </p>
+            </div>
+        </div>
+        <div class="pcard">
+            <img src="../photos/KKR/S_Jackson.png" alt="">
+            <div class="details">
+                <h3>Sheldon Jackson</h3>
+                <p>Role: Wicket-Keeper</p>
+                <p>Status: Playing</p>
+                <p>Price: 60 L</p>
+            </div>
+        </div>
+        <div class="pcard">
+            <img src="../photos/KKR/A_Rahane.png" alt="">
+            <div class="details">
+                <h3>Ajinkya Rahane</h3>
+                <p>Role: Batsman</p>
+                <p>Status: Playing</p>
+                <p>Price: 1 Cr</p>
+            </div>
+        </div>
+        <div class="pcard">
+            <img src="../photos/KKR/A_Russel.png" alt="">
+            <div class="details">
+                <h3>Andre Russell</h3>
+                <p>Role: All-Rounder</p>
+                <p>Status: Playing</p>
+                <p>Price: </p>
+            </div>
+        </div>
+        <div class="pcard">
+            <img src="../photos/KKR/A_Finch.png" alt="">
+            <div class="details">
+                <h3>Aron Finch</h3>
+                <p>Role: Batsman</p>
+                <p>Status: Not Playing</p>
+                <p>Price: </p>
+            </div>
+        </div>
+        <div class="pcard">
+            <img src="../photos/KKR/S_Narine.png" alt="">
+            <div class="details">
+                <h3>Sunil Narine</h3>
+                <p>Role: All-Rounder</p>
+                <p>Status: Playing</p>
+                <p>Price: </p>
+            </div>
+        </div>
+        <div class="pcard">
+            <img src="../photos/KKR/P_Cummins.png" alt="">
+            <div class="details">
+                <h3>Pat Cummins</h3>
+                <p>Role: Bowler</p>
+                <p>Status: Not-Playing</p>
+                <p>Price: 7.25 Cr</p>
+            </div>
+        </div>
+        <div class="pcard">
+            <img src="../photos/KKR/S_Mavi.png" alt="">
+            <div class="details">
+                <h3>Shivam Mavi</h3>
+                <p>Role: All-Rounder</p>
+                <p>Status: Not-Playing</p>
+                <p>Price: 7.25 Cr</p>
+            </div>
+        </div>
+        <div class="pcard">
+            <img src="../photos/KKR/M_Nabi.png" alt="">
+            <div class="details">
+                <h3>Mohammed Nabi</h3>
+                <p>Role: All-Rounder</p>
+                <p>Status: Not-Playing</p>
+                <p>Price: 1 Cr</p>
+            </div>
+        </div>
+        <div class="pcard">
+            <img src="../photos/KKR/T_Southee.png" alt="">
+            <div class="details">
+                <h3>Tim Southee</h3>
+                <p>Role: Bowler</p>
+                <p>Status: Playing</p>
+                <p>Price: 1.50 Cr</p>
+            </div>
+        </div>
+        <div class="pcard">
+            <img src="../photos/KKR/U_Yadav.png" alt="">
+            <div class="details">
+                <h3>Umesh Yadav</h3>
+                <p>Role: Bowler</p>
+                <p>Status: Playing</p>
+                <p>Price: 2 Cr</p>
+            </div>
+        </div>
+        <div class="pcard">
+            <img src="../photos/KKR/C_Karunaratne.png" alt="">
+            <div class="details">
+                <h3>Chamika Karunaratne</h3>
+                <p>Role: All-Rounder</p>
+                <p>Status: Playing</p>
+                <p>Price: 50 L</p>
+            </div>
+        </div>
+        <div class="pcard">
+            <img src="../photos/KKR/N_Rana.png" alt="">
+            <div class="details">
+                <h3>Nitish Rana</h3>
+                <p>Role: Batsman</p>
+                <p>Status: Not-Playing</p>
+                <p>Price: 8 Cr</p>
+            </div>
+        </div>
+        <div class="pcard">
+            <img src="../photos/KKR/A_roy.png" alt="">
+            <div class="details">
+                <h3>Anukul Roy</h3>
+                <p>Role: All-Rounder</p>
+                <p>Status: Not-Playing</p>
+                <p>Price: 20 L</p>
+            </div>
+        </div>
+        <div class="pcard">
+            <img src="../photos/KKR/Alex_hales.png" alt="">
+            <div class="details">
+                <h3>Alex Hales</h3>
+                <p>Role: Batsman</p>
+                <p>Status: Not-Playing</p>
+                <p>Price: 1.50 Cr</p>
+            </div>
+        </div>
+    </div>
+</body>

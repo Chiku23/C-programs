@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/teams.css">
+    <style>
+        body {
+            background-color: green;
+        }
+        .Head {
+            margin-top: 10px;
+            width: 330px;
+            display: inline-block;
+            text-align: center;
+            position: fixed;
+        }
+        .image img {
+            width: 250px;
+            border-radius: 180px;
+            box-shadow: 0px 0px 50px gold;
+            transition: all 800ms;
+        }
+        .image img:hover{
+            transform: scale(1.1);
+            transition: all 800ms;
+        }
+        .players {
+            float: right;
+            width: 1000px;
+            margin: auto;
+            padding-top: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .tdetails {
+            color: white;
+            font-size: larger;
+            font-weight: bolder;
+            text-shadow: 0px 0px 10px black;
+        }
+
+        .pcard {
+            background-color: transparent;
+            border: 5px solid orangered;
+            border-radius: 35px;
+            height: 300px;
+            width: 250px;
+            display: inline-block;
+            flex-direction: column;
+            margin: 30px;
+            text-align: center;
+            transition: all 1s;
+        }
+
+        .pcard img {
+            box-shadow: 0 0 50px orangered;
+            border-radius: 30px;
+            align-self: center;
+            margin-top: 0px;
+            height: 300px;
+            width: 250px;
+        }
+
+        .pcard .details {
+            display: none;
+            position: relative;
+            bottom: 90px;
+            background-color: navy;
+            color: white;
+            text-align: center;
+            font-weight: 600;
+        }
+
+        .pcard:hover {
+            cursor: pointer;
+            transition: all 1s;
+            transform: scale(1.1);
+        }
+
+        .pcard:hover .details {
+            display: block;
+            border-bottom-left-radius: 35px;
+            border-bottom-right-radius: 35px;
+        }
+
+    </style>
+    <title>IPL INFO</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="../photos/IPL/TATA_IPL_2022_LOGO.png" alt="TATA IPL 2022 logo">
+        </div>
+        <div class="menu">
+            <a href="../index.html">Home</a>
+            <a href="../about.html">About IPL</a>
+            <a href="#">Add Team</a>
+            <a href="#">Add Player</a>
+        </div>
+        <div class="search">
+            <input type="search" value="Type here">
+            <a href="#"><input type="button" class="btn" value="Search"></a>
+        </div>
+    </header>
+    <div class="Head">
+        <div class="image">
+            <img src="../photos/logos/LSG.png" alt="Team Logo">
+        </div>
+        <div class="tdetails">
+
+            <h1>Lucknow Super Giants</h1>
+            <p>Championships Won : 0</p>
+            <p>Total Players: 17</p>
+            <p>Batsmans:</p>
+            <p>Bowlers:</p>
+            <p>All-Rounders:</p>
+        </div>
+    </div>
+
+    <div class="players">
+        <div class="pcard">
+            <img src="../photos/LSG/KL_Rahul.PNG" alt="">
+            <div class="details">
+                <h3> Kannur Lokesh Rahul</h3>
+                <p>Role: Wicket Keeper</p>
+                <p>Status: Playing</p>
+                <br>
+            </div>
+        </div>
+        <div class="pcard">
+            <img src="../photos/LSG/M_Pandey.PNG" alt="">
+            <div class="details">
+                <h3> Manish Pandey</h3>
+                <p>Role: Batsman</p>
+                <p>Status: Playing</p>
+                <p>Price: 4.60 Cr</p>
+            </div>
+        </div>
+        <div class="pcard">
+            <img src="../photos/LSG/R_Bishnoi.PNG" alt="">
+            <div class="details">
+                <h3> Ravi Bishnoi</h3>
+                <p>Role: Bowler</p>
+                <p>Status: Playing</p>
+                <br>
+            </div>
+        </div>
+        <div class="pcard">
+            <img src="../photos/LSG/D_Hooda.PNG" alt="">
+            <div class="details">
+                <h3> Deepak Hooda</h3>
+                <p>Role: All-Rounder</p>
+                <p>Status: Playing</p>
+                <p>Price: 5.75 Cr</p>
+            </div>
+        </div>
+        <div class="pcard">
+            <img src="../photos/LSG/QD_Kock.PNG" alt="">
+            <div class="details">
+                <h3> Quinton De Kock</h3>
+                <p>Role: Wicket-Keeper</p>
+                <p>Status: Playing</p>
+                <p>Price: 6.75 Cr</p>
+            </div>
+        </div>
+        <div class="pcard">
+            <img src="../photos/LSG/A_Khan.PNG" alt="">
+            <div class="details">
+                <h3> Avesh Khan</h3>
+                <p>Role: Bowler</p>
+                <p>Status: Playing</p>
+                <p>Price: 10 cr</p>
+            </div>
+        </div>
+        <div class="pcard">
+            <img src="../photos/LSG/K_Goutham.PNG" alt="">
+            <div class="details">
+                <h3> Krishnappa Gowtham</h3>
+                <p>Role: All-Rounder</p>
+                <p>Status: Playing</p>
+                <p>Price: 90 L</p>
+            </div>
+        </div>
+        <div class="pcard">
+            <img src="../photos/LSG/A_Rajpoot.PNG" alt="">
+            <div class="details">
+                <h3> Ankit Rajpoot</h3>
+                <p>Role: Bowler</p>
+                <p>Status: Not Playing</p>
+                <p>Price: 50 L</p>
+            </div>
+        </div>
+        <div class="pcard">
+            <img src="../photos/LSG/J_Holder.PNG" alt="">
+            <div class="details">
+                <h3> Jason Holder</h3>
+                <p>Role: All-Rounder</p>
+                <p>Status: Playing</p>
+                <p>Price: 8.75 Cr</p>
+            </div>
+        </div>
+        <div class="pcard">
+            <img src="../photos/LSG/M_Stoinis.PNG" alt="">
+            <div class="details">
+                <h3> Marcus Stoinis</h3>
+                <p>Role: All-Rounder</p>
+                <p>Status: Not-Playing</p>
+                <br>
+            </div>
+        </div>
+        <div class="pcard">
+            <img src="../photos/LSG/E_Lewis.PNG" alt="">
+            <div class="details">
+                <h3> Evin Lewis</h3>
+                <p>Role: Batsman</p>
+                <p>Status: Not-Playing</p>
+                <p>Price: 2 Cr</p>
+            </div>
+        </div>
+        <div class="pcard">
+            <img src="../photos/LSG/M_Wood.PNG" alt="">
+            <div class="details">
+                <h3> Mark Wood</h3>
+                <p>Role: Bowler</p>
+                <p>Status: Not-Playing</p>
+                <p>Price: 7.50 Cr</p>
+            </div>
+        </div>
+        <div class="pcard">
+            <img src="../photos/LSG/S_Nadeem.PNG" alt="">
+            <div class="details">
+                <h3> Shahbaz Nadeem</h3>
+                <p>Role: Bowler</p>
+                <p>Status: Playing</p>
+                <p>Price: 50 L</p>
+            </div>
+        </div>
+        <div class="pcard">
+            <img src="../photos/LSG/D_Chameera.PNG" alt="">
+            <div class="details">
+                <h3> Dushmantha Chameera</h3>
+                <p>Role: Bowler</p>
+                <p>Status: Playing</p>
+                <p>Price: 2 Cr</p>
+            </div>
+        </div>
+        <div class="pcard">
+            <img src="../photos/LSG/M_Vohra.PNG" alt="">
+            <div class="details">
+                <h3> Manan Vohra</h3>
+                <p>Role: Batsman</p>
+                <p>Status: Playing</p>
+                <p>Price: 20 L</p>
+            </div>
+        </div>
+        <div class="pcard">
+            <img src="../photos/LSG/K_Mayers.PNG" alt="">
+            <div class="details">
+                <h3> Kyle Mayers</h3>
+                <p>Role: All-Rounder</p>
+                <p>Status: Not-Playing</p>
+                <p>Price: 50 L</p>
+            </div>
+        </div>
+        <div class="pcard">
+            <img src="../photos/LSG/K_Pandya.PNG" alt="">
+            <div class="details">
+                <h3> Krunal Pandya</h3>
+                <p>Role: All-Rounder</p>
+                <p>Status: Not-Playing</p>
+                <p>Price: 8.25 Cr</p>
+            </div>
+        </div>
+    </div>
+</body>

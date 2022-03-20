@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/teams.css">
+    <title>IPL INFO</title>
+    <style>
+        body {
+            background-color: blue;
+        }
+
+        .Head {
+            margin-top: 20px;
+            width: 330px;
+            display: inline-block;
+            text-align: center;
+            position: fixed;
+        }
+
+        .image img {
+            width: 250px;
+            border-radius: 180px;
+            box-shadow: 0px 5px 30px yellow;
+        }
+
+        .players {
+            float: right;
+            width: 1000px;
+            margin: auto;
+            padding-top: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .tdetails {
+            color: white;
+            font-size: larger;
+            font-weight: bolder;
+            text-shadow: 0px 0px 10px black;
+        }
+
+        .pcard {
+            background-color: transparent;
+            border: 2px solid yellow;
+            border-radius: 30px;
+            height: 300px;
+            width: 250px;
+            display: inline-block;
+            flex-direction: column;
+            margin: 30px;
+            text-align: center;
+        }
+
+        .pcard img {
+            box-shadow: 0 0 40px yellow;
+            border-radius: 30px;
+            align-self: center;
+            margin-top: 0px;
+            height: 300px;
+            width: 250px;
+        }
+
+        .pcard .details {
+            display: none;
+            position: relative;
+            bottom: 90px;
+            background-color: yellow;
+            color: black;
+            text-align: center;
+            font-weight: 600;
+        }
+
+        .pcard:hover {
+            cursor: pointer;
+            transition: all 1s;
+            transform: scale(1.1);
+        }
+
+        .pcard:hover .details {
+            display: block;
+            border-bottom-left-radius: 30px;
+            border-bottom-right-radius: 30px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="../photos/IPL/TATA_IPL_2022_LOGO.png" alt="TATA IPL 2022 logo">
+        </div>
+        <div class="menu">
+            <a href="../index.html">Home</a>
+            <a href="../about.html">About IPL</a>
+            <a href="#">Add Team</a>
+            <a href="#">Add Player</a>
+        </div>
+        <div class="search">
+            <input type="search" value="Type here">
+            <a href="#"><input type="button" class="btn" value="Search"></a>
+        </div>
+    </header>
+    <div class="Head">
+        <div class="image">
+        <img src="../photos/logos/CSK.png" alt="Team Logo">
+
+        </div>
+        <div class="tdetails">
+            <h2>Chennai Super Kings</h2>
+            <p>Championships Won : 4</p>
+            <p>Total Players: 17</p>
+            <p>Batsmans:</p>
+            <p>Bowlers:</p>
+            <p>All-Rounders:</p>
+        </div>
+    </div>
+
+    <div class="players">
+        <div class="pcard">
+            <img src="../photos/CSK/MS_Dhoni.png" alt="">
+            <div class="details">
+                <h3>Mahendra Singh Dhoni</h3>
+                <p>Role: Wicket Keeper</p>
+                <p>Status: Playing</p>
+                <br>
+            </div>
+        </div>
+        <div class="pcard">
+            <img src="../photos/CSK/RUTU_G.png" alt="">
+            <div class="details">
+                <h3>Ruturaj Gaikwad</h3>
+                <p>Role: Batsman</p>
+                <p>Status: Playing</p>
+                <br>
+            </div>
+        </div>
+        <div class="pcard">
+            <img src="../photos/CSK/D_Chahar.png" alt="">
+            <div class="details">
+                <h3>Deepak Chahar</h3>
+                <p>Role: Bowler</p>
+                <p>Status: Playing</p>
+                <p>Price: 14 Cr</p>
+            </div>
+        </div>
+        <div class="pcard">
+            <img src="../photos/CSK/D_Conway.png" alt="">
+            <div class="details">
+                <h3>Devon Conway</h3>
+                <p>Role: Batsman</p>
+                <p>Status: Not Playing</p>
+                <p>Price: 1 Cr</p>
+            </div>
+        </div>
+        <div class="pcard">
+            <img src="../photos/CSK/A_Milne.png" alt="">
+            <div class="details">
+                <h3>Adam Milne</h3>
+                <p>Role: Bowler</p>
+                <p>Status: Playing</p>
+                <p>Price: 1.90 Cr</p>
+            </div>
+        </div>
+        <div class="pcard">
+            <img src="../photos/CSK/R_Jadeja.png" alt="">
+            <div class="details">
+                <h3>Ravindra Jadeja</h3>
+                <p>Role: All-Rounder</p>
+                <p>Status: Playing</p>
+                <br>
+            </div>
+        </div>
+        <div class="pcard">
+            <img src="../photos/CSK/R_HNGKR.png" alt="">
+            <div class="details">
+                <h3>Rajvardhan Hangargekar</h3>
+                <p>Role: Bowler</p>
+                <p>Status: Playing</p>
+                <p>Price: 1.50 Cr</p>
+            </div>
+        </div>
+        <div class="pcard">
+            <img src="../photos/CSK/C_Jordan.png" alt="">
+            <div class="details">
+                <h3>Chris Jordan</h3>
+                <p>Role: Bowler</p>
+                <p>Status: Not Playing</p>
+                <p>Price: 3.60 Cr</p>
+            </div>
+        </div>
+        <div class="pcard">
+            <img src="../photos/CSK/S_Dube.png" alt="">
+            <div class="details">
+                <h3>Shivam Dube</h3>
+                <p>Role: All-Rounder</p>
+                <p>Status: Playing</p>
+                <p>Price: 4 Cr</p>
+            </div>
+        </div>
+        <div class="pcard">
+            <img src="../photos/CSK/D_Pretorius.png" alt="">
+            <div class="details">
+                <h3>Dwain Pretorius</h3>
+                <p>Role: All-Rounder</p>
+                <p>Status: Not-Playing</p>
+                <p>Price: 50 L</p>
+            </div>
+        </div>
+        <div class="pcard">
+            <img src="../photos/CSK/M_Tsena.png" alt="">
+            <div class="details">
+                <h3>Maheesh Theekshana</h3>
+                <p>Role: Bowler</p>
+                <p>Status: Not-Playing</p>
+                <p>Price: 70 L</p>
+            </div>
+        </div>
+        <div class="pcard">
+            <img src="../photos/CSK/T_Deshpande.png" alt="">
+            <div class="details">
+                <h3>Tushar Deshpande</h3>
+                <p>Role: Bowler</p>
+                <p>Status: Not-Playing</p>
+                <p>Price: 20 L</p>
+            </div>
+        </div>
+        <div class="pcard">
+            <img src="../photos/CSK/A_Rayudu.png" alt="">
+            <div class="details">
+                <h3>Ambati Rayudu</h3>
+                <p>Role: Batsman</p>
+                <p>Status: Playing</p>
+                <p>Price: 6.75 CR</p>
+            </div>
+        </div>
+        <div class="pcard">
+            <img src="../photos/CSK/D_Bravo.png" alt="">
+            <div class="details">
+                <h3>Dwayne Bravo</h3>
+                <p>Role: All-Rounder</p>
+                <p>Status: Playing</p>
+                <p>Price: 4.40 Cr</p>
+            </div>
+        </div>
+        <div class="pcard">
+            <img src="../photos/CSK/M_Ali.png" alt="">
+            <div class="details">
+                <h3>Moeen Ali</h3>
+                <p>Role: All-Rounder</p>
+                <p>Status: Playing</p>
+                <br>
+            </div>
+        </div>
+        <div class="pcard">
+            <img src="../photos/CSK/R_Uthappa.png" alt="">
+            <div class="details">
+                <h3>Robin Uthappa</h3>
+                <p>Role: Wicket-Keeper</p>
+                <p>Status: Not-Playing</p>
+                <p>Price: 2 Cr</p>
+            </div>
+        </div>
+        <div class="pcard">
+            <img src="../photos/CSK/S_Senapati.png" alt="">
+            <div class="details">
+                <h3>Subhranshu Senapati</h3>
+                <p>Role: Batsman</p>
+                <p>Status: Not-Playing</p>
+                <p>Price: 20 L</p>
+            </div>
+        </div>
+    </div>
+</body>
