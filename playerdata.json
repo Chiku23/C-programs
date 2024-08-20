@@ -1,0 +1,759 @@
+[
+    {
+        "id":"1",
+        "team":"csk",
+        "tcode":"1",
+        "name": "Mahendra Singh Dhoni",
+        "role": "Wicket Keeper",
+        "status":"playing",
+        "price":null
+    },
+    {
+        "id":"2",
+        "team":"csk",
+        "tcode":"1",
+        "name": "Ruturaj Gaikwad",
+        "role": "Batsman",
+        "status":"playing",
+        "price":null
+
+    },
+    {
+        "id":"3",
+        "team":"csk",
+        "tcode":"1",
+        "name": "Deepak Chahar",
+        "role": "Bowler",
+        "status":"playing",
+        "price":"14 cr"
+    },
+    {
+        "id":"4",
+        "team":"csk",
+        "tcode":"1",
+        "name": "Devon Conway",
+        "role": "Batsman",
+        "status":"playing",
+        "price":"1 cr"
+    },
+    {
+        "id":"5",
+        "team":"csk",
+        "tcode":"1",
+        "name": "Adam Milne",
+        "role": "Bowler",
+        "status":"playing",
+        "price":"1.90 cr"
+    },
+    {
+        "id":"6",
+        "team":"csk",
+        "tcode":"1",
+        "name": "Ravindra Jadeja",
+        "role": "All-Rounder",
+        "status":"playing",
+        "price":null
+    },
+    {
+        "id":"7",
+        "team":"csk",
+        "tcode":"1",
+        "name": "Rajvardhan Hangargekar",
+        "role": "Bowler",
+        "status":"playing",
+        "price":"1.50 cr"
+    },
+    {
+        "id":"8",
+        "team":"csk",
+        "tcode":"1",
+        "name": "Chris Jordan",
+        "role": "Bowler",
+        "status":"playing",
+        "price":"3.60 cr"
+    },
+    {
+        "id":"9",
+        "team":"csk",
+        "tcode":"1",
+        "name": "Shivam dube",
+        "role": "All-Rounder",
+        "status":"playing",
+        "price":"4 cr"
+    },
+    {
+        "id":"10",
+        "team":"csk",
+        "tcode":"1",
+        "name": "Dwain Pretorius",
+        "role": "All-Rounder",
+        "status":"playing",
+        "price":"50 L"
+    },
+    {
+        "id":"11",
+        "team":"csk",
+        "tcode":"1",
+        "name": "Maheesh Theekshana",
+        "role": "Bowler",
+        "status":"playing",
+        "price":"70 L"
+    },
+    {
+        "id":"12",
+        "team":"csk",
+        "tcode":"1",
+        "name": "Ambati Rayudu",
+        "role": "Batsman",
+        "status":"playing",
+        "price":"6.75 cr"
+    },
+    {
+        "id":"13",
+        "team":"csk",
+        "tcode":"1",
+        "name": "Dwayne Bravo",
+        "role": "All-Rounder",
+        "status":"playing",
+        "price":"4.40 cr"
+    },
+    {
+        "id":"14",
+        "team":"csk",
+        "tcode":"1",
+        "name": "Moeen Ali",
+        "role": "All-Rounder",
+        "status":"playing",
+        "price":null
+    },
+    {
+        "id":"15",
+        "team":"csk",
+        "tcode":"1",
+        "name": "Robin Uthappa",
+        "role": "Wicket-Keeper",
+        "status":"playing",
+        "price":"2 cr"
+    },
+    {
+        "id":"16",
+        "team":"csk",
+        "tcode":"1",
+        "name": "Subhranshu Senapati",
+        "role": "Batsman",
+        "status":"playing",
+        "price":"20 L"
+    },
+    {
+        "id":"17",
+        "team":"csk",
+        "tcode":"1",
+        "name": "Tushar Deshpande",
+        "role": "Bowler",
+        "status":"playing",
+        "price":"20 L"
+    },
+    {
+        "id":"18",
+        "team":"mi",
+        "tcode":"2",
+        "name": "Ishan Kishan",
+        "role": "Wicket-Keeper",
+        "status":"playing",
+        "price":"15.25 cr"
+    },
+    {
+        "id":"19",
+        "team":"mi",
+        "tcode":"2",
+        "name": "Rohit Sharma",
+        "role": "Batsman",
+        "status":"playing",
+        "price":null
+    },
+    {
+        "id":"20",
+        "team":"mi",
+        "tcode":"2",
+        "name": "Jasprit Bumrah",
+        "role": "Bowler",
+        "status":"playing",
+        "price":null
+    },
+    {
+        "id":"21",
+        "team":"mi",
+        "tcode":"2",
+        "name": "Tim David",
+        "role": "All-Rounder",
+        "status":"playing",
+        "price":"8.25 cr"
+    },
+    {
+        "id":"22",
+        "team":"mi",
+        "tcode":"2",
+        "name": "Jofra Archer",
+        "role": "Bowler",
+        "status":"playing",
+        "price":"8 cr"
+    },
+    {
+        "id":"23",
+        "team":"mi",
+        "tcode":"2",
+        "name": "Kieron Pollard",
+        "role": "All-Rounder",
+        "status":"playing",
+        "price":null
+    },
+    {
+        "id":"24",
+        "team":"mi",
+        "tcode":"2",
+        "name": "Suryakumar Yadav",
+        "role": "Batsman",
+        "status":"playing",
+        "price":null
+    },
+    {
+        "id":"25",
+        "team":"mi",
+        "tcode":"2",
+        "name": "Tymal Mills",
+        "role": "Bowler",
+        "status":"playing",
+        "price":"1.50 cr"
+    },
+    {
+        "id":"26",
+        "team":"mi",
+        "tcode":"2",
+        "name": "Jaydev Unadkat",
+        "role": "Bowler",
+        "status":"playing",
+        "price":"1.30 cr"
+    },
+    {
+        "id":"27",
+        "team":"mi",
+        "tcode":"2",
+        "name": "Aryan Juyal",
+        "role": "Wicket-Keeper",
+        "status":"Not-playing",
+        "price":"20 L"
+    },
+    {
+        "id":"28",
+        "team":"mi",
+        "tcode":"2",
+        "name": "Basil Thampi",
+        "role": "Bowler",
+        "status":"Not-playing",
+        "price":"30 L"
+    },
+    {
+        "id":"29",
+        "team":"mi",
+        "tcode":"2",
+        "name": "Anmol Preet Singh",
+        "role": "Batsman",
+        "status":"Not-playing",
+        "price":"20 L"
+    },
+    {
+        "id":"30",
+        "team":"mi",
+        "tcode":"2",
+        "name":"Arshad Khan",
+        "role": "Batsman",
+        "status":"playing",
+        "price":"20 L"
+    },
+    {
+        "id":"31",
+        "team":"mi",
+        "tcode":"2",
+        "name":"Sanjay Yadav",
+        "role": "All-Rounder",
+        "status":"playing",
+        "price":"50 L"
+    },
+    {
+        "id":"32",
+        "team":"mi",
+        "tcode":"2",
+        "name":"Arjun Tendulkar",
+        "role": "Bowler",
+        "status":"Not-playing",
+        "price":"30 L"
+    },
+    {
+        "id":"33",
+        "team":"mi",
+        "tcode":"2",
+        "name":"Tilak Verma",
+        "role": "Batsman",
+        "status":"playing",
+        "price":"1.70 cr"
+    },
+    {
+        "id":"34",
+        "team":"mi",
+        "tcode":"2",
+        "name":"Riley Meredith",
+        "role": "Bowler",
+        "status":"playing",
+        "price":"1 cr"
+    },
+    {
+        "id":"35",
+        "team":"rcb",
+        "tcode":"3",
+        "name":"Virat Kohli",
+        "role": "Batsman",
+        "status":"playing",
+        "price":null
+    },
+    {
+        "id":"36",
+        "team":"rcb",
+        "tcode":"3",
+        "name":"Dinesh Kartic",
+        "role": "Wicket Keeper",
+        "status":"playing",
+        "price":"5.5 cr"
+    },
+    {
+        "id":"37",
+        "team":"rcb",
+        "tcode":"3",
+        "name":"Faf Du Plesis",
+        "role": "Batsman",
+        "status":"playing",
+        "price":"7 cr"
+    },
+    {
+        "id":"38",
+        "team":"rcb",
+        "tcode":"3",
+        "name":"Glenn Maxwell",
+        "role": "All-rounder",
+        "status":"playing",
+        "price":null
+    },
+    {
+        "id":"39",
+        "team":"rcb",
+        "tcode":"3",
+        "name":"Mohammad Siraj",
+        "role": "Bowler",
+        "status":"playing",
+        "price":null
+    },
+    {
+        "id":"40",
+        "team":"rcb",
+        "tcode":"3",
+        "name":"Anuj Rawat",
+        "role": "Wicket Keeper",
+        "status":"playing",
+        "price":"3.4 cr"
+    },
+    {
+        "id":"41",
+        "team":"rcb",
+        "tcode":"3",
+        "name":"Chama Milind",
+        "role": "Bowler",
+        "status":"playing",
+        "price":"25 L"
+    },
+    {
+        "id":"42",
+        "team":"rcb",
+        "tcode":"3",
+        "name":"Harshal Patel",
+        "role": "Bowler",
+        "status":"not playing",
+        "price":"10.75 cr"
+    },
+    {
+        "id":"43",
+        "team":"rcb",
+        "tcode":"3",
+        "name":"Wanindu Hasaranga",
+        "role": "All-Rounder",
+        "status":"playing",
+        "price":"10.75 cr"
+    },
+    {
+        "id":"44",
+        "team":"rcb",
+        "tcode":"3",
+        "name":"David Willey",
+        "role": "Bowler",
+        "status":"not playing",
+        "price":"2 cr"
+    },
+    {
+        "id":"45",
+        "team":"rcb",
+        "tcode":"3",
+        "name":"Suyash Prabhudessai",
+        "role": "Batsman",
+        "status":"not playing",
+        "price":"30 L"
+    },
+    {
+        "id":"46",
+        "team":"rcb",
+        "tcode":"3",
+        "name":"Shahbaz Ahmed",
+        "role": "All-rounder",
+        "status":"not playing",
+        "price":"2,4 cr"
+    },
+    {
+        "id":"47",
+        "team":"rcb",
+        "tcode":"3",
+        "name":"Mahipal Lomror",
+        "role": "All-rounder",
+        "status":"playing",
+        "price":"95 L"
+    },
+    {
+        "id":"48",
+        "team":"rcb",
+        "tcode":"3",
+        "name":"Karn Sharma",
+        "role": "Bowler",
+        "status":"playing",
+        "price":"20 L"
+    },
+    {
+        "id":"49",
+        "team":"rcb",
+        "tcode":"3",
+        "name":"Sherfane Rutherford",
+        "role": "Batsman",
+        "status":"playing",
+        "price":"1 cr"
+    },
+    {
+        "id":"50",
+        "team":"rcb",
+        "tcode":"3",
+        "name":"Josh Hazlewood",
+        "role": "Bowler",
+        "status":"not playing",
+        "price":"7.75 cr"
+    },
+    {
+        "id":"51",
+        "team":"rcb",
+        "tcode":"3",
+        "name":"Akash Deep",
+        "role": "Bowler",
+        "status":"not playing",
+        "price":"20 L"
+    },
+    {
+        "id":"52",
+        "team":"kkr",
+        "tcode":"4",
+        "name":"Sam Billings",
+        "role": "Wicket Keeper",
+        "status":"playing",
+        "price":"2 cr"
+    },
+    {
+        "id":"53",
+        "team":"kkr",
+        "tcode":"4",
+        "name":"Shreyas Iyer",
+        "role": "Batsman",
+        "status":"playing",
+        "price":"12,25 cr"
+    },
+    {
+        "id":"53",
+        "team":"kkr",
+        "tcode":"4",
+        "name":"Varun Chakravarty",
+        "role": "Bowler",
+        "status":"playing",
+        "price":""
+    },
+    {
+        "id":"54",
+        "team":"kkr",
+        "tcode":"4",
+        "name":"Venkatesh Iyer",
+        "role": "All-Rounderer",
+        "status":"playing",
+        "price":""
+    },
+    {
+        "id":"55",
+        "team":"kkr",
+        "tcode":"4",
+        "name":"Sheldon Jackson",
+        "role": "Wicket Keeper",
+        "status":"playing",
+        "price":"60 L"
+    },
+    {
+        "id":"56",
+        "team":"kkr",
+        "tcode":"4",
+        "name":"Ajinkya Rahane",
+        "role": "Batsman",
+        "status":"playing",
+        "price":"1 cr"
+    },
+    {
+        "id":"57",
+        "team":"kkr",
+        "tcode":"4",
+        "name":"Andre Russell",
+        "role": "All-Rounder",
+        "status":"playing",
+        "price":""
+    },
+    {
+        "id":"58",
+        "team":"kkr",
+        "tcode":"4",
+        "name":"Aron Finch",
+        "role": "Batsman",
+        "status":"not playing",
+        "price":""
+    },
+    {
+        "id":"59",
+        "team":"kkr",
+        "tcode":"4",
+        "name":"Sunil Narine",
+        "role": "All-Rounder",
+        "status":"playing",
+        "price":""
+    },
+    {
+        "id":"60",
+        "team":"kkr",
+        "tcode":"4",
+        "name":"Pat Cummins",
+        "role": "Bowler",
+        "status":"not playing",
+        "price":"7.25 cr"
+    },
+    {
+        "id":"61",
+        "team":"kkr",
+        "tcode":"4",
+        "name":"Shivam Mavi",
+        "role": "All-Rounder",
+        "status":"not playing",
+        "price":"7.25 cr"
+    },
+    {
+        "id":"62",
+        "team":"kkr",
+        "tcode":"4",
+        "name":"Mohammed Nabi",
+        "role": "All-Rounder",
+        "status":"not playing",
+        "price":"1 cr"
+    },
+    {
+        "id":"63",
+        "team":"kkr",
+        "tcode":"4",
+        "name":"Tim Southee",
+        "role": "Bowler",
+        "status":"playing",
+        "price":"1.5 cr"
+    },
+    {
+        "id":"64",
+        "team":"kkr",
+        "tcode":"4",
+        "name":"Umesh Yadav",
+        "role": "Bowler",
+        "status":"playing",
+        "price":"2 cr"
+    },
+    {
+        "id":"65",
+        "team":"kkr",
+        "tcode":"4",
+        "name":"Chamika Karunaratne",
+        "role": "All-Rounder",
+        "status":"playing",
+        "price":"50 L"
+    },
+    {
+        "id":"66",
+        "team":"kkr",
+        "tcode":"4",
+        "name":"Nitish Rana",
+        "role": "Batsman",
+        "status":"not playing",
+        "price":"8 cr"
+    },
+    {
+        "id":"67",
+        "team":"kkr",
+        "tcode":"4",
+        "name":"Anukul Roy",
+        "role": "All-Rounder",
+        "status":"not playing",
+        "price":"20 L"
+    },
+    {
+        "id":"68",
+        "team":"sh",
+        "name":"Nicholas Pooran",
+        "role": "Wicket Keeper",
+        "status":"playing",
+        "price":"10.75 cr"
+    },
+    {
+        "id":"69",
+        "team":"sh",
+        "name":"Kane Williamson",
+        "role": "Batsman",
+        "status":"playing",
+        "price":null
+    },
+    {
+        "id":"70",
+        "team":"sh",
+        "name":"Umran Malik",
+        "role": "Bowler",
+        "status":"playing",
+        "price":null
+    },
+    {
+        "id":"71",
+        "team":"sh",
+        "name":"Abdul Samad",
+        "role": "Batsman",
+        "status":"playing",
+        "price":null
+    },
+    {
+        "id":"72",
+        "team":"sh",
+        "name":"Abhishek Sharma",
+        "role": "All-Rounder",
+        "status":"playing",
+        "price":"6.50 cr"
+    },
+    {
+        "id":"73",
+        "team":"sh",
+        "name":"Glenn Phillips",
+        "role": "Wicket Keeper",
+        "status":"playing",
+        "price":"1.50 cr"
+    },
+    {
+        "id":"74",
+        "team":"sh",
+        "name":"Bhubaneswar Kumar",
+        "role": "Bowler",
+        "status":"playing",
+        "price":"4.20 cr"
+    },
+    {
+        "id":"75",
+        "team":"sh",
+        "name":"Washington Sundar",
+        "role": "All-Rounder",
+        "status":"playing",
+        "price":"8.75 cr"
+    },
+    {
+        "id":"76",
+        "team":"sh",
+        "name":"Romario Shephard",
+        "role": "Bowler",
+        "status":"Not-playing",
+        "price":"7.75 cr"
+    },
+    {
+        "id":"77",
+        "team":"sh",
+        "name":"Rahul Tripathi",
+        "role": "Batsman",
+        "status":"playing",
+        "price":"8.50 cr"
+    },
+    {
+        "id":"78",
+        "team":"sh",
+        "name":"Shreyas Gopal",
+        "role": "All-Rounder",
+        "status":"playing",
+        "price":"75 L"
+    },
+    {
+        "id":"79",
+        "team":"sh",
+        "name":"T Natarajan",
+        "role": "Bowler",
+        "status":"playing",
+        "price":"4 cr"
+    },
+    {
+        "id":"80",
+        "team":"sh",
+        "name":"Kartik Tyagi",
+        "role": "Bowler",
+        "status":"playing",
+        "price":"4 cr"
+    },
+    {
+        "id":"81",
+        "team":"sh",
+        "name":"Jagadeesha Suchith",
+        "role": "Batsman",
+        "status":"playing",
+        "price":"20 L"
+    },
+    {
+        "id":"82",
+        "team":"sh",
+        "name":"Ravikumar Samarth",
+        "role": "Bowler",
+        "status":"playing",
+        "price":"20 L"
+    },
+    {
+        "id":"83",
+        "team":"sh",
+        "name":"Priyam Garg",
+        "role": "Batsman",
+        "status":"playing",
+        "price":"20 L"
+    },
+    {
+        "id":"84",
+        "team":"sh",
+        "name":"Fazalhaq Farooqi",
+        "role": "Bowler",
+        "status":"playing",
+        "price":"50 L"
+    },
+    {
+        "id":"85",
+        "team":"sh",
+        "name":"Sean Abbott",
+        "role": "Bowler",
+        "status":"playing",
+        "price":"2.4 cr"
+    }
+]

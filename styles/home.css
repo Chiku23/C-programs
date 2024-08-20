@@ -61,7 +61,7 @@ header{
 .search {
     position: relative;
     display: inline-block;
-    left: 450px;
+    left: 750px;
     top: 20px;
 }
 .search input{
@@ -130,7 +130,7 @@ header{
     text-align: center;
     border: 3px solid silver;
     box-shadow: 0 0px 10px silver;
-    transition: 500ms all;
+    transition: 100ms all;
     background-size: cover;
     background-position: center ;
 }
@@ -151,11 +151,14 @@ header{
 }
 .card:hover{
     cursor: pointer;
-    transform:scale(1.1);
-    transition: 700ms ease-in-out;
+    transform:scale(1.02);
 
 }
 .card:hover .detail{
     background-color: white;
     display:block;
+}
+#btn{
+    background: transparent;
+    border: none;
 }

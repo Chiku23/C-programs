@@ -1,0 +1,112 @@
+[
+    {
+        "id":1,
+        "name":"Chennai Super Kings",
+        "img":"./photos/logos/CSK.png",
+        "chwon":4,
+        "total players":17,
+        "batsmans":4,
+        "bowlers":6,
+        "AR":5,
+        "WK":2
+    },
+    {
+        "id":2,
+        "name":"Mumbai Indians",
+        "img":"./photos/logos/MI.png",
+        "chwon":5,
+        "total players":17,
+        "batsmans":5,
+        "bowlers":7,
+        "AR":3,
+        "WK":2
+    },
+    {
+        "id":3,
+        "name":"Royal Challengers Bangalore",
+        "img":"./photos/logos/RCB.png",
+        "chwon":0,
+        "total players":17,
+        "batsmans":4,
+        "bowlers":7,
+        "AR":4,
+        "WK":2
+    },
+    {
+        "id":4,
+        "name":"Kolkata Knight Riders",
+        "img":"./photos/logos/KKR.png",
+        "chwon":2,
+        "total players":18,
+        "batsmans":5,
+        "bowlers":4,
+        "AR":7,
+        "WK":2
+    },
+    {
+        "id":5,
+        "name":"Sunrisers Hyderabad",
+        "img":"./photos/logos/SRH.png",
+        "chwon":2,
+        "total players":17,
+        "batsmans":6,
+        "bowlers":6,
+        "AR":3,
+        "WK":2
+    },
+    {
+        "id":6,
+        "name":"Delhi Capitals",
+        "img":"./photos/logos/DC.png",
+        "chwon":0,
+        "total players":17,
+        "batsmans":6,
+        "bowlers":6,
+        "AR":3,
+        "WK":2
+    },
+    {
+        "id":7,
+        "name":"Punjab Kings",
+        "img":"./photos/logos/PBKS.png",
+        "chwon":0,
+        "total players":18,
+        "batsmans":5,
+        "bowlers":7,
+        "AR":4,
+        "WK":2
+    },
+    {
+        "id":8,
+        "name":"Rajstan Royals",
+        "img":"./photos/logos/RR.png",
+        "chwon":0,
+        "total players":18,
+        "batsmans":6,
+        "bowlers":7,
+        "AR":3,
+        "WK":2
+    },
+    {
+        "id":9,
+        "name":"Gujrat Titans",
+        "img":"./photos/logos/GT.png",
+        "chwon":0,
+        "total players":18,
+        "batsmans":5,
+        "bowlers":7,
+        "AR":4,
+        "WK":2
+    },
+    {
+        "id":10,
+        "name":"Lucknow Super Giants",
+        "img":"./photos/logos/LSG.png",
+        "chwon":0,
+        "total players":17,
+        "batsmans":3,
+        "bowlers":6,
+        "AR":6,
+        "WK":2
+    }
+]
